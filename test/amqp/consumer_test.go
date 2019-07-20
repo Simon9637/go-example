@@ -7,7 +7,7 @@ import (
 )
 
 func TestConsumer(t *testing.T) {
-	conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
+	conn, err := amqp.Dial("amqp://guest:guest@localhost:5670/")
 	if err != nil {
 		t.Errorf("Failed to connnect the Rabbitmq, %s", err)
 	}

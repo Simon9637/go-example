@@ -5,7 +5,7 @@
 1. 本项目实现go 的api router（http）。可用于构建基于go语言的后端程序。
 2. 本项目使用Viper， 可动态修改配置文件并实现程序热加载。
 3. 本项目中实现zk cluster的初始化连接以及相关操作，包括zk client， register node, get service node and it's node data.zk初始化可使用https://github.com/Simon9637/zk-cluster中docker-compose.yml进行初始化。
-4. test目录中有amqp协议的producer consumer 测试用例。测试前可使用https://github.com/Simon9637/docker-rabbitmq进行初始化。
+4. test目录中有amqp协议的producer consumer 测试用例。测试前可使用https://github.com/Simon9637/haproxy-rabbitmq-cluster中docker-compose.yml进行初始化。
 5. go 中其他再陆续加入。。。。。。
 
 ###1. Viper(github.com/spf13/viper)
