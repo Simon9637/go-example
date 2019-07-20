@@ -2,10 +2,10 @@ package router
 
 import (
 	"github.com/gorilla/mux"
-	"goStudyProject/handler/sd"
+	"go-example/handler/sd"
 	"net/http"
-	"goStudyProject/handler/user"
-	"goStudyProject/handler/zk"
+	"go-example/handler/user"
+	"go-example/handler/zk"
 )
 
 func NewRouter() *mux.Router {

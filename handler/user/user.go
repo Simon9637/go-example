@@ -2,8 +2,8 @@ package user
 
 import (
 	"net/http"
-	"goStudyProject/model"
-	"goStudyProject/util"
+	"go-example/model"
+	"go-example/util"
 	"github.com/gorilla/mux"
 	"strconv"
 )

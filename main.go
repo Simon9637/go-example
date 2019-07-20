@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 	"errors"
-	"goStudyProject/router"
+	"go-example/router"
 	"github.com/spf13/pflag"
-	"goStudyProject/config"
+	"go-example/config"
 	"github.com/spf13/viper"
 	"fmt"
 )

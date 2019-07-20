@@ -7,7 +7,7 @@ import (
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/load"
 	"github.com/shirou/gopsutil/mem"
-	"goStudyProject/util"
+	"go-example/util"
 )
 
 const (

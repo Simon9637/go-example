@@ -2,8 +2,8 @@ package zk
 
 import (
 	"net/http"
-	"goStudyProject/util"
-	"goStudyProject/zk"
+	"go-example/util"
+	"go-example/zk"
 	"log"
 	"github.com/gorilla/mux"
 )
